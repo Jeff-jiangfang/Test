@@ -1,0 +1,127 @@
+header{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 3% 0;
+    background: rgb(95, 192, 205);
+}
+
+.page{
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    width: 2%;
+}
+
+.background{
+    background: url("task.psd/task5-1-assets/background.png");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.round{
+    float: left;
+    width: 15%;
+    margin-left: 9%;
+    padding: 10% 0;
+}
+
+.introduce{
+    float: left;
+    padding: 13% 0;
+    margin-left: 5%;
+    width: 20%;
+    color: white;
+}
+
+p.name{
+    font-size: 20px;
+}
+
+
+p.name span{
+    margin-left: 1.0em;
+}
+
+
+img.location{
+    width:10px;
+    padding-top: 6%;
+    margin-right: 0.5em;
+}
+
+
+.major{
+    padding: 3% 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+.line{
+    padding-left: 5%;
+    margin-left: 5%;
+    border-left: 5px solid #5ac0ce;
+    font-size: 1.5rem;
+}
+
+
+.list{
+    margin-left: 5%;
+}
+
+
+.list li{
+    font-size: 1.2rem;
+    padding: 5%;
+    border-bottom: 1px solid #e1e5e7;
+}
+
+
+.sign{
+    margin-right: 3%;
+}
+
+
+.star{
+    width: 16px;
+    padding-right: 1%;
+}
+
+.news{
+    color: #999;
+    margin-right: 3%;
+}
+
+
+.red{
+    color: #e26163;
+}
+
+
+.experience{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.footer{
+    padding: 10% 5% 5%;
+    text-align: center;
+}
+
+.message{
+    padding: 3% 10%;
+    background: white;
+    color: #5fc0cd;
+    border-radius: 5%;
+    border: 1px solid #5fc0cd;
+    margin-right: 3%;
+}
+
+.tel{
+    padding: 3% 8%;
+    background: #5fc0cd;
+    color: white;
+    border-radius: 5%;
+}

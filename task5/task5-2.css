@@ -1,0 +1,127 @@
+.header{
+    background: #5ac0ce;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.nav{
+    padding: 5% 25%;
+}
+
+.employer{
+    padding: 5%;
+    border-radius: 5%;
+    border: none;
+    color: #fff;
+    background: #55a8b3;
+}
+
+.worker{
+    padding: 5%;
+    border-radius: 5%;
+    border: none;
+    color: #55a8b3;
+    background: #fff;
+    margin-left: -0.5em;
+}
+
+.position{
+    position: absolute;
+    top: 36%;
+    right: 5%;
+    width: 6%;
+}
+
+.main{
+    width: 100%;
+    border-bottom: 1px solid #e1e5e7;
+    color: #999;
+    overflow: hidden;
+}
+
+
+.life li{
+    float: left;
+    width: 33%;
+    padding: 8% 0;
+    text-align: center;
+}
+
+
+.triangle{
+    padding-left: 28%;
+    padding-bottom: 1%;
+}
+
+
+.content li{
+    width: 100%;
+    border-top: 1px solid #e1e5e7;
+    overflow: hidden;
+}
+
+
+.date-time{
+    color: #333;
+    padding: 2% 6%;
+    font-size: 1.5em;
+}
+
+
+.date,.time{
+    display: inline-block;
+}
+
+.time {
+    color: #e63b0e;
+    float: right;
+}
+
+
+.time span img{
+    vertical-align: middle;
+    width: 11%;
+}
+
+.serve,.location{
+    padding: 2%;
+}
+
+.serve img,.location img{
+    padding-right: 2%;
+    vertical-align: middle;
+    width: 3%;
+}
+
+.footer{
+    background: #f8fafb;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home{
+    float: left;
+    color: #5ac0ce;
+    width: 8%;
+    padding-left: 30%;
+    padding-top: 4%;
+}
+
+.center{
+    float: left;
+    width: 15%;
+    padding: 2.5% 5%;
+}
+
+.mine{
+    float: left;
+    width: 8%;
+    padding-top: 4%;
+}
+
+.center img{
+    border-radius: 50%;
+}

@@ -1,0 +1,105 @@
+header{
+    background: #29bde0;
+    position: relative;
+    height: 100px;
+}
+
+.header-left{
+    height: 27px;
+    width: 34px;
+    position: absolute;
+    left: 5%;
+    top: 37%;
+    background: url("picture/1-assets/left.png");
+}
+
+main{
+    background: #f0f0f0;
+    padding: 5%;
+}
+
+.main-first{
+    text-align: center;
+    line-height: 9rem;
+    font-size: 3.0rem;
+    color: #9a9a9a;
+    border: 1px solid #c9c9c9;
+    position: relative;
+    background: white;
+}
+
+.icon{
+    position: absolute;
+    height: 40px;
+    width: 25px;
+    top: 35%;
+    right: 3%;
+    background: url("picture/1-assets/icon.png");
+}
+
+.main-box{
+    background: white;
+    margin-top: 5%;
+    position: relative;
+    border: 1px solid  #c9c9c9;
+}
+
+p.game{
+    text-align: center;
+    width: 100%;
+    line-height: 8rem;
+    font-size: 3.0rem;
+    color: #fbb435;
+    border-bottom: 1px solid #fdd793;
+}
+
+.edition{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.versions{
+    padding: 6% 32%;
+    color: #fff;
+    background: #69d1e9;
+    font-size: 2.5rem;
+}
+
+p.number{
+    padding-top: 6%;
+    color: #9a9a9a;
+    font-size: 1.8rem;
+}
+
+ul.form{
+    margin: 3% 0;
+    text-align: center;
+}
+
+.form li{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 1%;
+    background: #f0f0f0;
+    border-radius: 50%;
+}
+
+.round:first-child{
+    background: #69d1e9;
+}
+
+.form li:hover{
+    background: #e26163;
+}
+
+.direction{
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid #fbb435;
+}

@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*页头、页尾*/
+header,footer{
+    width:100%;
+    position: relative;
+}
+
+/*header部分*/
+.header-top{
+    width: 1200px;
+    margin: auto;
+    background: transparent;
+    overflow: hidden;
+}
+/*客服热线*/
+.tel {
+    float: left;
+    padding: 1% 0;
+    color: #42b683;
+    font-size: 14px;
+    line-height: 26px;
+}
+/*未使用雪碧图*/
+.share{
+    float: right;
+    padding: 1% 0;
+    width: 108px;
+    height: 26px;
+}
+/*导航栏/底部背景*/
+.nav,footer{
+    background: #29b078;
+    overflow: hidden;
+}
+/*外边距设置为auto能使其自动居中*/
+.nav-top{
+    width: 1200px;
+    margin: auto;
+}
+
+/*技能树图标*/
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    top: 66px;
+    left: 70px;
+    /*background: url("one-assets/two.png") 0 0 no-repeat;*/
+
+}
+
+/*内容撑开*/
+.nav-top li {
+    float: right;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 100px;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+}
+
+/*顶部导航栏下方横线显现效果*/
+.nav-top li:hover{
+    border-bottom: 4px solid white;
+}
+
+/*底部布局*/
+
+footer{
+    padding-top: 30px;
+    margin-top: -3px;
+}
+
+/*大框架*/
+.floor{
+    padding-bottom: 20px;
+    width: 1200px;
+    margin: auto;
+    font-size: 16px;
+    color: #fff;
+    clear: both;
+    position: relative;
+}
+
+/*横向两个序列*/
+
+.floor-1>li{
+    display: inline-block;
+    padding-right: 20%;
+}
+
+.floor-1>li>span{
+    display: block;
+    line-height: 33px;
+    padding-bottom: 25px;
+}
+
+.floor-2{
+    margin: -5px;
+    padding-top: 29px;
+}
+
+.floor-2 li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #fff;
+    line-height: 25px;
+}
+
+/*第三个边框需隐藏*/
+.floor-2 li:nth-child(3) {
+    border: none;
+}
+
+/*链接下划线设置*/
+.floor-2 a:link,.floor-3 a:link,.floor-4 a:link{
+    text-decoration: none;
+}
+/*使用伪类*/
+.floor-2 a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.floor-3 a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.floor-4 a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/*链接字体需单独设置颜色*/
+.floor-2 a,.floor-3 a,.floor-4 a{
+    color: #fff;
+}
+
+.floor-3{
+    padding-bottom: 10px;
+}
+
+.floor-3 li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.floor-4 li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+/*二维码扫描*/
+.code {
+    display: inline;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.code p{
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+p.end{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid #32c086;
+}
+

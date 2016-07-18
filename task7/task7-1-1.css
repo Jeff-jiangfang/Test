@@ -1,0 +1,338 @@
+@charset "utf-8";
+/*main*/
+main{
+    background: #fafafa;
+}
+/*使用纯css制作轮播图*/
+/*图片轮播*/
+@keyframes pic_1 {
+    0%{ opacity: 1;}
+    20%{ opacity: 1;}
+    60%{ opacity: 0;}
+    80%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
+/*图片轮播*/
+@keyframes pic_2 {
+    0%{ opacity: 0;}
+    20%{ opacity: 0;}
+    35%{ opacity: 1;}
+    50%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+
+/*图片轮播*/
+@keyframes pic_3 {
+    0%{ opacity: 0;}
+    50%{ opacity: 0;}
+    65%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{ opacity: 0;}
+}
+/*主框架*/
+
+.container {
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+
+.first{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.second,.third{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide img{
+    width:100%;
+    vertical-align: middle;
+}
+
+
+
+/*鼠标悬停暂停动画*/
+.slide:hover li{
+    animation-play-state: paused;
+}
+/*动画绑定*/
+li.first {
+    animation: pic_1 9s infinite;
+}
+
+li.second {
+    animation: pic_2 9s infinite;
+}
+
+li.third{
+    animation: pic_3 9s infinite;
+}
+/*内容区域*/
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
+/*第一部分*/
+.result{
+    font-size: 16px;
+    padding: 100px 0 20px;
+}
+
+.result{
+    overflow: hidden;
+    position: relative;
+}
+
+.effect li{
+    float: left;
+    width: 222px;
+    margin-right: 100px;
+}
+
+.number{
+    position: absolute;
+    top:110px;
+    right: 50px;
+    padding: 10px;
+    border-left: 1px dotted #dedede;
+}
+
+/*背景图标区域*/
+.air{
+    margin: 0 auto;
+    width: 43px;
+    height: 62px;
+    background: url("one-assets/rocket.png") no-repeat 0 0;
+}
+
+.book{
+    margin: 0 auto;
+    width: 60px;
+    height: 50px;
+    background: url("one-assets/archive.png") no-repeat 0 0;
+}
+
+.person{
+    margin: 0 auto;
+    width: 52px;
+    height: 55px;
+    background: url("one-assets/shape.png") no-repeat 0 0;
+}
+
+.user{
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background: url("one-assets/user.png") no-repeat 0 0;
+}
+
+.number>span{
+    color: #26a26f;
+}
+
+.number>p{
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.effect h2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+/*如何学习*/
+.learn{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.learn>h2{
+    text-align: center;
+    font-size: 16px;
+    margin: 50px 0;
+    line-height: 50px;
+}
+
+ul.learn-first{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+/*宽度控制*/
+.learn-first li{
+    float: left;
+    width: 310px;
+    height: 160px;
+    position: relative;
+}
+
+.learn-first>li:nth-child(4n+3){
+    width: 320px;
+}
+.learn-first>li:nth-child(4n+4){
+    width: 260px;
+}
+
+.learn>li:nth-child(4n+4) span {
+    margin: 0 0 0 12px;
+    width: 120px;
+}
+
+/*圆形序号*/
+.round{
+    display: inline-block;
+    color: #26a26f;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px #999;
+}
+
+/*文字*/
+.learn-first span{
+    display: inline-block;
+    width: 165px;
+    padding: 0 20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+/*箭头*/
+.arrows{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 13px;
+    background: url("one-assets/arrows.png") no-repeat;
+}
+
+/*优秀学员展示*/
+h2.great{
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+
+.student1 li{
+    display: inline-block;
+    width: 212px;
+    margin:50px 20px;
+    height: 150px;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 3px 0 rgba(8, 1, 3, 0.059);
+}
+
+.student1 li h2{
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.student1 li p{
+    text-align: left;
+}
+
+/*省略号more*/
+.more{
+    margin: 20px 0 55px 0;
+    text-align: center;
+}
+.more li{
+    display: inline-block;
+    margin: 0 1px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px #999;
+}
+.more li:nth-child(1){
+    background: #29b078;
+}
+.more li:hover{
+    background: #29b078;
+}
+/*End 省略号more*/
+
+/*战略合作企业*/
+ul.enterprise{
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+h2.enterprise {
+    text-align: center;
+    margin: 67px 0;
+}
+
+.enterprise li{
+    display: inline-block;
+    margin-bottom: 80px;
+    width: 235px;
+    background: #fff;
+    text-align: center;
+}
+
+.enterprise li img{
+    margin: 57px 0;
+}
+
+.enterprise li:hover{
+    box-shadow: 0 0 10px #999;
+}
+/*end战略合作企业*/
+
+/*友情链接*/
+.footer-one{
+    background: #fff;
+}
+
+.friendly{
+    width: 1200px;
+    margin: auto;
+}
+
+.friendly h2 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+ul.all{
+    list-style: disc;
+    overflow: hidden;
+    color: #999;
+}
+
+ul.all>li{
+    float:right;
+    text-align: center;
+    font-size: 14px;
+    width: 80px;
+    line-height: 30px;
+    padding-right: 35px;
+}
+
+ul.all li a{
+    text-decoration:none;
+}
+
+ul.all li a:hover{
+    border-bottom: 1px solid #29b078;
+}
+

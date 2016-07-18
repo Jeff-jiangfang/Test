@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*左边内容区域*/
+main{
+    background-color: #fafafa;
+    padding-bottom: 230px;
+}
+.content{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+p.top-text{
+    padding: 30px 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+
+p.top-text span{
+    color: #29b078;
+}
+
+.company{
+    float: left;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    font-size: 16px;
+    line-height: 16px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 0 #ededed;
+    border-radius: 1%;
+}
+
+.company p{
+    color: #333;
+    padding: 20px 100px;
+    border-bottom: 1px solid #ededed;
+}
+
+ul.firm{
+    padding: 20px 0;
+}
+
+ul.firm li{
+    padding: 20px;
+    color: #29b078;
+    list-style-image:url("task7-2-assets/circle-1.png");
+}
+
+ul.firm li:nth-child(3){
+    color: #ff650e;
+    list-style-image:url("task7-2-assets/circle-2.png");
+}
+
+.firm-all{
+    width: 120px;
+    padding-left: 100px;
+}
+
+.article{
+    width: 860px;
+    float: right;
+    background-color: #fff;
+    border: 1px solid #ededed;
+    box-shadow: 0 2px 0 #ededed;
+    border-radius: 1%;
+    font-size: 16px;
+}
+
+.article-1{
+    border-bottom: 1px solid #ededed;
+}
+
+.article-1 img{
+    width: 20%;
+    padding: 3%;
+    display: inline-block;
+}
+
+.article-1 p{
+    padding: 2% 5% 3% 0;
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.article-2{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.article-2 ul li{
+    padding: 40px 110px 0;
+    text-align: left;
+    text-indent: 22px;
+}
+
+

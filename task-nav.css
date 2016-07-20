@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei", serif;
+
+}
+
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.warp{
+    width: 74%;
+    margin: auto;
+    background: url("Task-html/badmition.jpg") no-repeat;
+
+}
+
+
+h1{
+    text-align: center;
+    color: #565c5b;
+    font-size: 40px;
+    padding: 30px 80px;
+
+
+}
+
+.wrap2{
+    height: 1000px;
+}
+
+ul{
+    overflow: hidden;
+}
+
+ul li{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 50px 100px;
+    border-radius: 5px;
+    background: #e15053;
+    box-shadow: 2px 2px 3px #f6eff2;
+}
+
+ul li a{
+    color: #474343;
+    font-size: 25px;
+}

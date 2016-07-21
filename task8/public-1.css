@@ -33,7 +33,7 @@ header,footer{
     overflow: hidden;
 }
 /*外边距设置为auto能使其自动居中*/
-.nav-top{
+.nav2{
     width: 1200px;
     margin: auto;
     position: relative;
@@ -44,8 +44,8 @@ header,footer{
     position: absolute;
     width: 120px;
     height: 60px;
-    top: 66px;
-    left: 150px;
+    top: 25px;
+    left: 0;
     /*background: url("two.png") 0 0 no-repeat;*/
 }
 

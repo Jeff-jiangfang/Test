@@ -1,0 +1,276 @@
+
+
+/*修真院优势*/
+.advantage{
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.advantage li{
+    height: 265px;
+}
+.advantage li:nth-child(1) div {
+    margin: auto;
+    width:43px;
+    height:62px;
+    background: url("images/task7.png") 0 -30px no-repeat;
+}
+.advantage li:nth-child(2) div{
+    margin: auto;
+    width:62px;
+    height:62px;
+    background: url("images/task7.png") -73px -30px no-repeat;
+}
+.advantage li:nth-child(3) div{
+    margin: auto;
+    width:52px;
+    height:62px;
+    background: url("images/task7.png") -135px -30px no-repeat;
+}
+.advantage li:nth-child(3){
+    border-right:1px #dedede solid;
+
+}
+.advantage li:nth-child(4){
+    padding-top: 62px;
+    padding-left: 58px;
+
+}
+.main h2
+{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.advantage h2{
+    line-height: 75px;
+}
+.advantage p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #999;
+}
+.advantage li:nth-child(1) p{
+    margin: auto;
+    max-width: 220px;
+}
+.advantage li:nth-child(2) p{
+    text-align: center;
+}
+.advantage li:nth-child(3) p{
+    margin: auto;
+    max-width: 250px;
+}
+
+.advantage li:nth-child(4) span,
+.advantage li:nth-child(4) p{
+    margin: auto;
+}
+.advantage li:nth-child(4) p{
+    margin-bottom: 27px;
+    font-size: 18px;
+}
+.advantage span{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    color: #26a26f;
+}
+.advantage span div{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url("images/task7.png") -107px 0 no-repeat ;
+}
+/*End 修真院优势*/
+/*如何学习*/
+h2.learn{
+    margin-bottom: 55px;
+}
+ul.learn>li>ul>li{
+    margin-bottom: 90px;
+}
+/*圆形图标*/
+.round{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    line-height: 70px;
+    color: #29b078;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px #999;
+    text-align: center;
+}
+/*End 圆形图标*/
+
+/*文字*/
+.learn span{
+    display: inline-block;
+    margin: 0 15px 0 12px;
+    width: 119px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #afafaf;
+    vertical-align: middle;
+}
+/*End 文字*/
+
+/*箭头*/
+.learn li div:nth-child(3){
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("images/task7.png") -75px 0 no-repeat;
+    vertical-align: middle;
+}
+/*End 箭头*/
+/*End 如何学习*/
+
+
+
+
+/*优秀学员*/
+h2.students {
+    margin:20px 0 70px 0;
+}
+.students ul h2{
+    margin: 40px 0 25px 0;
+}
+
+.students{
+    padding: 2px 0;
+}
+ul.students>li ul{
+    margin: auto;
+    padding: 12px 37px;
+    width: 270px;
+    height: 370px;
+    box-shadow: 0 0 12px #eeeded
+}
+ul.students li div {
+    text-align-last: center;
+}
+ul.students li p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #999999;
+}
+
+/*省略号more*/
+.more{
+    margin: 20px 0 55px 0;
+    text-align: center;
+}
+.more li{
+    display: inline-block;
+    margin: 0 1px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px #999;
+}
+.more li:nth-child(1){
+    background: #29b078;
+}
+.more li:hover{
+    background: #29b078;
+}
+
+/*End 省略号more*/
+
+/*End 优秀学员*/
+
+
+
+/*战略合作企业*/
+ul.enterprise{
+    margin-bottom: 27px;
+    box-shadow: 0 0 1px #999;
+}
+h2.enterprise {
+    margin: 67px 0;
+}
+.enterprise li{
+    display: inline-block;
+    text-align: center;
+}
+
+.enterprise li img{
+    margin: 57px 0;
+}
+
+.enterprise li:hover{
+    box-shadow: 0 0 10px #999;
+}
+/*End 战略合作企业*/
+
+/*End 战略合作企业*/
+
+/*友情链接*/
+
+.friendly-link{
+    margin-top: 64px;
+    padding-bottom: 10px;
+    background: #ffffff;
+    text-align: center;
+}
+.friendly-link h2{
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.friendly-link li:nth-child(n+2){
+
+    padding: 0;
+    font-size: 14px;
+    line-height: 30px;
+    color: #999;
+    list-style: inside;
+    box-sizing: border-box;
+    text-align: left;
+}
+.friendly-link li a{
+    color: #999;
+}
+/*友情链接下划线*/
+/*.friendly-link li a:hover{*/
+    /*border-bottom: 1px #29b078 solid;*/
+/*}*/
+/*End 友情链接下划线*/
+/*End 友情链接*/
+
+    @media (min-width: 1200px){
+        .friendly-link li:nth-child(n+2){
+            margin-right: 1.6%;
+        }
+    }
+    @media (max-width: 1200px) {
+    /*如何学习-人数取消左Padding+居中*/
+    .advantage li:nth-child(4){
+        padding-left: 0;
+        text-align: center;
+    }
+    /*End 如何学习-人数取消左Padding+居中*/
+
+    ul.learn>li{
+        text-align: center;
+    }
+
+}
+@media (max-width: 768px) {
+    .advantage li:nth-child(3) {
+        border: 0;
+    }
+    ul.learn>li{
+        text-align: center;
+    }
+}
+/*修改战略合作企业的默认宽度*/
+@media (min-width: 992px){
+    .enterprise .col-md-3{
+        width: 20%;
+    }
+    }
+/*End 修改战略合作企业的默认宽度*/

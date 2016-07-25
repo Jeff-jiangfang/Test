@@ -84,12 +84,10 @@ li.third{
 .result{
     font-size: 16px;
     padding: 100px 0 20px;
-}
-
-.result{
     overflow: hidden;
     position: relative;
 }
+
 
 .effect li{
     float: left;
@@ -330,6 +328,7 @@ ul.all>li{
 
 ul.all li a{
     text-decoration:none;
+    color: #999;
 }
 
 ul.all li a:hover{

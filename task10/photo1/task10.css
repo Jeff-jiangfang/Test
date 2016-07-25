@@ -1,0 +1,197 @@
+.box{
+    max-width: 1920px;
+    width: 100%;
+}
+.header{
+    background: #29b078;
+}
+.header .wrap2{
+    overflow: hidden;
+}
+/*header-top*/
+.header-top{
+    background: white;
+}
+.wrap2{
+    margin: auto;
+    max-width:1200px;
+    width: 100%;
+}
+/*客服电话*/
+.header-top-left{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 40px;
+    color: #29b078;
+}
+/*End 客服电话*/
+/*快捷登陆*/
+.header-top ul{
+    float: right;
+    width: 123px;
+    margin-right: 25px;
+    margin-bottom: 0;
+}
+.header-top ul li{
+    float: left;
+    margin: 8px;
+    width:25px;
+    height: 25px;
+    background: url("images/task7.png") 0 0 no-repeat;
+}
+
+.header-top ul li:nth-child(2){
+    background-position:-25px 0;
+}
+.header-top ul li:nth-child(3){
+    background-position:-50px 0;
+}
+/*End 快捷登陆*/
+
+/*End header-top*/
+/*导航栏*/
+
+.navbar-brand{
+    display: inline-block;
+    margin: 20px 0;
+    width: 160px;
+    height: 60px;
+    background: url("images/logo.png") 0 0 no-repeat;
+}
+/*导航按钮*/
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: none ;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-toggle {
+    margin: 33px 15px;
+}
+/*End 导航按钮*/
+.navbar-default {
+    background-color: transparent;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    padding: 0 34px;
+    font-size: 16px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: white;
+    background-color: #29b078;
+    border-bottom: 4px white solid;
+}
+/*End 导航栏*/
+
+
+/*footer顶部间隔*/
+.footer{
+    padding-top: 26px;
+}
+/*底部大框架*/
+
+/*底部小框架*/
+
+/*标题*/
+.footer span{
+    font-size: 16px;
+    line-height: 38px;
+    color: white;
+}
+/*小框架内ul*/
+
+.us{
+    margin-top: 50px;
+    width: 250px;
+}
+.us li {
+    float: left;
+}
+.us li {
+    margin: 5px 10px 5px 0;
+    padding: 2px 10px 2px 0;
+    font-size: 15px;
+    line-height: 15px;
+    border-right: 2px white solid;
+    box-sizing: border-box;
+}
+
+/*清除右侧<li>合作企业</li>边框*/
+.us li:nth-child(3){
+    border: none;
+}
+
+/*旗下网站*/
+.footer{
+    background: #29b078;
+}
+.web{
+    margin-top: 5px;
+}
+.web li{
+    float: left;
+}
+.web li {
+    margin: 5px 35px 7px 0;
+    padding-top: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    height: 28px;
+    box-sizing: border-box;
+}
+.us a:hover ,.web a:hover{
+    border-bottom:1px white solid;
+}
+/*链接字体颜色设置*/
+.us a,.web a{
+    color: white;
+}
+.footer-nav>li:nth-child(3){
+    float: right;
+    text-align: center;
+}
+/*最底部*/
+span.footer-bottom{
+    display: block;
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px #32c086 solid;
+}
+@media (max-width: 1200px) {
+    .footer-nav>li
+    {
+        margin: 40px 0;
+    }
+    .us,
+    .web{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .web{
+        width: 250px;
+    }
+    .us {
+        text-align: center;
+    }
+    .footer-nav>li{
+        text-align: center;
+    }
+}

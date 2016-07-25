@@ -67,6 +67,7 @@ li.text-2 ul{
 }
 /*行三-小标题*/
 .content>li:nth-child(2n+3) h2{
+    text-align: left;
     font-size: 16px;
     line-height: 80px;
     border-bottom: 2px solid #d0d6d9;

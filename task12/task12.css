@@ -1,0 +1,215 @@
+@charset "utf-8";
+/*main*/
+main{
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*导航栏*/
+.nav-box{
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+.nav-box ul{
+    float: right;
+    margin-top: 30px;
+}
+
+.nav-box ul li{
+    float: left;
+}
+
+.nav-box ul li a{
+    color: rgb(204, 204, 204);
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.box-1{
+    position: relative;
+    background: rgb(204, 204, 204);
+    width: 160px;
+    height: 5px;
+    left: 0;
+    top: 10px;
+}
+
+.box-1 span{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -10px;
+    left: 45%;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    border-radius: 50%;
+    background: rgb(204, 204, 204);
+}
+
+.nav-box ul li:first-child a,
+.nav-box ul li:hover a{
+    color: rgb(255, 127, 2);
+}
+
+.nav-box ul li:first-child a .box-1,
+.nav-box ul li:first-child a .box-1 span,
+.nav-box ul li a:hover .box-1,
+.nav-box ul li a:hover .box-1 span{
+    background: rgb(255, 127, 2);
+}
+
+.nav-box p{
+    margin-top: 55px;
+}
+
+/*标题*/
+main h2 {
+    margin: 100px 0 15px;
+    font-size: 2.5rem;
+    padding-left: 6px;
+    border-left: 4px solid rgb(29, 122, 217);
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+
+.carton-type{
+    /*渐变色效果*/
+    background: linear-gradient(#f6f6f6, #f1f1f1);
+    color: rgb(29, 122, 217);
+    font-size: 1.9rem;
+    line-height: 5rem;
+    font-weight: bold;
+}
+
+.carton-type img{
+    padding-left: 12px;
+    width: 30px;
+    height: 21px;
+}
+
+/*箱型样式*/
+main .type1,
+main .size1,
+main .size2,
+main .carton-style{
+    position: relative;
+    font-size: 1.8rem;
+    color: #666;
+    background: #fbfcff;
+    border: 1px solid #e7e7e7;
+}
+
+main .size1{
+    border-bottom: none;
+}
+main .size2{
+    border-top: none;
+}
+
+main label{
+    margin: 20px 0;
+}
+
+
+/*jQuery操作的引用，隐藏序列号*/
+input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+}
+
+.input-style{
+    display: inline-block;
+    margin-right: 15px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #d7d7d7;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/*伪类：after的应用*/
+.input-style:after{
+    display: block;
+    margin: 6px auto;
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+}
+
+/*input[type="radio"]:checked+.input-style*/
+input[type="radio"]:checked+.input-style {
+    background: #1d7ad9;
+    border-color: #d7d7d7;
+}
+
+/*表单的更换设置*/
+main .select1,
+main .select2,
+main .select3 {
+    float: right;
+}
+
+@media screen and (min-width: 1200px) {
+    .select2{
+        top: -30px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .select1,.select2,.select3 {
+        text-align: center;
+    }
+}
+
+
+select {
+    font-size: 1.4rem;
+    width: 130px;
+    color: rgb(153, 153, 153);
+    border: 1px solid #e8e8e8;
+    background: url("photo12/check.png") 100px no-repeat;
+    /*使用CSS3的appearance属性改变元素的外观*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/*设定text宽度*/
+input[type="text"]{
+    width: 65px;
+    height: 21px;
+    border: 1px #e8e8e8 solid;
+}
+
+/*按钮设置*/
+main .btn {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    border-top: none;
+}
+
+main .btn button {
+    margin: 100px 0 80px;
+    padding: 5px 35px;
+    font-size: 2.4rem;
+    color: #fff;
+    background: #e34f4f;
+    border-radius: 5px;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>task-12</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../task12/base.css">
+    <link rel="stylesheet" type="text/css" href="task12.css">
+</head>
+<body>
+<div class="wrap">
+    <!--header部分-->
+    <header>
+        <!--登陆、注册框-->
+        <div class="container header-top">
+            <!--定宽-->
+            <div class="row">
+                <span class="col-lg-10">客服热线：010-594-78634</span>
+                <ul class="login">
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--导航栏-->
+        <nav>
+            <div class="container header-bottom">
+                <div class="row">
+                    <ul class="navbar">
+                        <li class="home"><a href="#" >首页</a></li>
+                        <li><a href="">在线定制</a></li>
+                        <li><a href="">标准箱</a></li>
+                        <li><a href="">品质保证</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--end header-->
+    <main>
+        <!--定宽-->
+        <div class="container">
+            <!--定制纸箱导航栏-->
+            <ul class="row">
+                <li class="nav-box">
+                    <ul>
+                        <li>
+                            <a>
+                                <div class="box-1"><span>1</span></div>
+                                <p>1.定制纸箱</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="box-1"><span>1</span></div>
+                                <p>2.选择数量</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="box-1"><span>1</span></div>
+                                <p>3.上传附件</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div class="box-1"><span>1</span></div>
+                                <p>4.确认下单</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <!--标题-->
+                    <h2>
+                        请您按照以下步骤来定制您的纸箱
+                    </h2>
+                </li>
+                <li>
+                    <!--选择箱型-->
+                    <div class="carton-type">
+                        <img src="photo12/box.png">
+                        选择箱型
+                    </div>
+                </li>
+                    <!--箱型样式-->
+                <li class="row type1">
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6 for=carton-1">
+                        <input type="radio" name="carton" id="carton-1" />
+                        <span class="input-style"></span>
+                        对口箱
+                    </label>
+
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="carton-2">
+                        <input type="radio" name="carton" id="carton-2" />
+                        <span class="input-style"></span>
+                        对口箱
+                    </label>
+
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6" for="carton-3">
+                        <input type="radio" name="carton" id="carton-3" />
+                        <span class="input-style"></span>
+                        对口箱
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-12 col-xs-12 select1">
+                        <select>
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <!--确定尺寸-->
+                    <div class="carton-type">
+                        <img src="photo12/ruler.png">
+                        确定尺寸
+                    </div>
+                </li>
+                <li class="row size1">
+                    <!--尺寸外径-->
+                    <label class="col-lg-2 col-md-2 col-sm-2 col-xs-6" for="carton-size1">
+                        <input type="radio" name="size" id="carton-size1" />
+                        <span class="input-style"></span>
+                        外径
+                    </label>
+                    <!--尺寸长度-->
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        长
+                        <input type="text" name="size" id="carton-size2" />
+                        mm
+                    </label>
+                    <!--尺寸宽度-->
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        宽
+                        <input type="text" name="size" id="carton-size3" />
+                        mm
+                    </label>
+                    <!--尺寸高度-->
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        高
+                        <input type="text" name="size" id="carton-size4" />
+                        mm
+                    </label>
+                </li>
+                <li class="row size2">
+                    <label class="col-lg-2 col-md-2 col-sm-2 col-xs-6" for="carton-size2">
+                        <!--尺寸内径-->
+                        <input type="radio" name="size" id="carton-size5" />
+                        <span class="input-style"></span>
+                        内径
+                    </label>
+                    <!--尺寸长度-->
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        长
+                        <input type="text" name="size" id="carton-size6" />
+                        mm
+                    </label>
+                    <!--尺寸宽度-->
+                    <label  class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        宽
+                        <input type="text" name="size" id="carton-size7" />
+                        mm
+                    </label>
+                    <!--尺寸高度-->
+                    <label  class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        高
+                        <input type="text" name="size" id="carton-size8" />
+                        mm
+                    </label>
+                    <label  class="col-lg-2 col-md-3 col-sm-12 col-xs-12 select2">
+                        <select class="check-1">
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <!--选择材质-->
+                    <div class="carton-type">
+                        <img src="photo12/cut.png">
+                        选择材质
+                    </div>
+                </li>
+                <!--材质样式-->
+                <li class="row carton-style">
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        <input type="radio" name="carton" id="carton-mass1" />
+                        <span class="input-style"></span>
+                        三层A瓦优质
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        <input type="radio" name="carton" id="carton-mass2" />
+                        <span class="input-style"></span>
+                        三层A瓦优质
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        <input type="radio" name="carton" id="carton-mass3" />
+                        <span class="input-style"></span>
+                        三层A瓦优质
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        <input type="radio" name="carton" id="carton-mass4" />
+                        <span class="input-style"></span>
+                        三层A瓦优质
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-3 col-xs-6">
+                        <input type="radio" name="carton" id="carton-mass5" />
+                        <span class="input-style"></span>
+                        三层A瓦优质
+                    </label>
+                    <label class="col-lg-2 col-md-3 col-sm-12 col-xs-12 select3">
+                        <!--下拉表单-->
+                        <select>
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                            <option value="check">查看详情</option>
+                        </select>
+                    </label>
+                </li>
+                <li class="container btn">
+                    <button type="submit">
+                        下一步
+                     </button>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!--main end-->
+    <!--footer页脚-->
+    <footer>
+        <div class="container footer-top">
+            <ul class="row wrap-one">
+                <li  class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    51包装网-纸箱包装首选服务平台
+                </li>
+                <li  class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <!--相关链接-->
+                    <ul class="wrap-two">
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">配送流程</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">下单指南</a></li>
+                        <li><a href="#">媒体介绍</a></li>
+                    </ul>
+                </li>
+                <li class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                    <!--联系方式-->
+                    <ul class="wrap-three">
+                        <li><img src="photo12/code.png"> </li>
+                        <li>TEL:400-0000-000</li>
+                        <li>企业QQ：123456789</li>
+                        <li>微信号:number</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--收尾-->
+        <div class="footer-down">
+            <p>
+                北京五一包装科技有限公司Copyright ©2015
+                &nbsp; &nbsp;
+                51baozhuang.com015
+                &nbsp;
+                All rights reserved.
+                &nbsp;
+                京icp备99999999-1
+            </p>
+        </div>
+    </footer>
+    <!--footer end-->
+</div>
+</body>
+</html>

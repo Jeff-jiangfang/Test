@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+.wrap{
+    background: #29bde0;
+}
+
+header{
+    position: relative;
+    color: white;
+    overflow: hidden;
+    border-bottom: 1px solid #74d4eb;
+}
+
+header h2{
+    font-size: 3rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+header a:first-child{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    width: 5%;
+}
+
+header a:nth-child(2){
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 6%;
+}
+
+main {
+    border-bottom: 2px solid #dddddd;
+    background-color: #29bde0;
+    font-size: 3.3rem;
+    overflow: hidden;
+}
+
+main .win {
+    margin: 5% auto;
+    width: 40%;
+    position: relative;
+}
+
+.win img {
+    width: 100%;
+}
+
+.win span {
+    color: #fff;
+    position: absolute;
+    top: 62%;
+    left: 26%;
+    font-size: 2.5rem;
+}
+
+main p {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: #ffc865;
+    text-align: justify;
+}
+
+.docs {
+    width: 75%;
+    margin: 10% auto 3%;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: #fff;
+    overflow: inherit;
+}
+
+.docs span {
+    float: left;
+    width: 33%;
+}
+
+.docs .p-line {
+    width: 100%;
+    margin: 1.2% 0;
+}
+
+ul {
+    color: #515151;
+    font-size: 3rem;
+    background: white;
+    overflow-y: auto;
+}
+
+ul li {
+    padding: 2% 12.5%;
+    border-bottom: 2px solid #dddddd;
+}
+
+ul li span {
+    float: right;
+    padding-top: 2%;
+    font-size: 1.8rem;
+    color: #e0e0e0;
+}
+
+ul li p {
+    line-height: 3rem;
+    font-size: 2.4rem;
+    color: #a6a6a6;
+}
+
+ul li p:nth-child(2) {
+    font-size: 3rem;
+    color: #000;
+    margin: 1% 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    max-width: 720px;
+    width: 100%;
+    background: rgba(41,193,243,0.6);
+    overflow: hidden;
+}
+
+footer button {
+    line-height: 3.5rem;
+    margin: 3.13% 3.75%;
+    padding: 3.59% 0;
+    width: 42%;
+    font-size: 4rem;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+
+footer button:nth-child(1) {
+    background-color: #f66f6f;
+}
+
+footer button:nth-child(2) {
+    background-color: #fbb435;
+}
+
+@media (max-device-width: 500px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-device-width: 400px) {
+    html {
+        font-size: 40%;
+    }
+}

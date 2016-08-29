@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+header{
+    position: relative;
+    color: white;
+    height: 100px;
+    background: #29bde0;
+    overflow: hidden;
+    border-bottom: 1px solid #74d4eb;
+}
+
+header h2{
+    font-size: 3rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+header a:first-child{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    width: 4%;
+}
+
+header a:nth-child(2){
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 6%;
+}
+
+main,footer{
+    background:  #29bde0;
+    overflow: hidden;
+    position: relative;
+}
+
+button{
+    margin: 7% 10%;
+    font-size: 3rem;
+    line-height: 7rem;
+    color: white;
+    background: #fbb435;
+    width: 80%;
+    font-weight: bold;
+}
+
+main{
+    height: 50rem;
+    text-align: center;
+}
+
+
+main>div{
+    float: left;
+    width: 18%;
+    height: 21%;
+    margin: 7%;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    background: url("images/data.png") center no-repeat;
+    position: relative;
+}
+
+main>div p{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    background-color: rgb(26, 153, 183);
+    opacity: 0.522;
+}

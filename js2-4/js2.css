@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+header{
+    position: relative;
+    color: white;
+    height: 100px;
+    background: #29bde0;
+    overflow: hidden;
+}
+
+header h2{
+    font-size: 3rem;
+    line-height: 8rem;
+    text-align: center;
+}
+
+header a:first-child{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    width: 4%;
+}
+
+header a:nth-child(2){
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    width: 6%;
+}
+
+.main-1{
+    margin: 2%;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    overflow: hidden;
+}
+
+.main-left{
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 14rem 0;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: #444;
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid #d9d9d9;
+}
+
+#plan{
+    float: left;
+    padding: 2%;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #a1a1a1;
+    width: 81%;
+    position: relative;
+}
+
+ul.plan-left{
+    float: left;
+    width: 30%;
+    height: 36rem;
+}
+
+.plan-1{
+    color: #29bde0;
+}
+
+.plan-2{
+    color: #ee9f1b;
+}
+
+#plan-right{
+    float: right;
+    width: 70%;
+    height: 36rem;
+}
+
+#plan-right li{
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.main-1 button{
+    font-size: 2.5rem;
+    line-height: 6rem;
+    color: #29bde0;
+    width: 85%;
+    border-top: 1px solid #d9d9d9;
+    background: transparent;
+}
+
+.main-2{
+    margin: 2%;
+    background: #fff;
+    padding: 0 6%;
+}
+
+.main-2 input{
+    font-size: 2rem;
+    line-height: 5rem;
+    color: #d9d9d9;
+    width: 100%;
+    margin: 2% 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.main-3{
+    margin: 2%;
+    background: #fff;
+    padding: 0 5%;
+}
+
+.main-3 label{
+    width: 100%;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    text-align: left;
+    color: #444;
+}
+
+.main-3 input{
+    width: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ee9f1b;
+}
+
+.main-3 label span{
+    font-size: 1.2rem;
+    color : #a1a1a1;
+    margin-left: 6%;
+}
+
+footer{
+    margin: 2%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+footer button{
+    width: 100%;
+    background: #ee9f1b;
+    font-size: 3rem;
+    line-height: 6rem;
+    color: #fff;
+    text-align: center;
+}

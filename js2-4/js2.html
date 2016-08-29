@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="js2-base.css">
+    <link rel="stylesheet" type="text/css" href="js2.css">
+    <title>js2</title>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <a><img src="./images/back.png" alt=""></a>
+        <a><img src="./images/help.png" alt=""></a>
+        <h2>参数设置</h2>
+    </header>
+    <main>
+        <div class="main-1">
+            <div class="main-left">
+                玩<br/>家<br/>配<br/>比
+            </div>
+
+            <div id="plan">
+                <ul class="plan-left">
+                    <li>
+                        <span class="plan-1">■</span>
+                        平民
+                        <span class="num-1">5</span>
+                        人
+                    </li>
+                    <li>
+                        <span class="plan-2">■</span>
+                        杀手
+                        <span class="num-2">1</span>
+                        人
+                    </li>
+                </ul>
+                <ul id="plan-right">
+                </ul>
+            </div>
+            <button onclick="actionIf()">
+                点击设置
+                <img src="./images/pencil.png">
+            </button>
+        </div>
+        <form class="main-2">
+            <label for="word1">
+                <input type="text" id="word1" value="水民词汇" />
+            </label>
+            <label for="word2">
+                <input type="text" id="word2" value="幽灵词汇" />
+            </label>
+        </form>
+        <div class="main-3">
+            <label for="num">
+                玩家人数
+                <input type="text" id="num" value="6" />
+                人
+                <span>限制输入6-18</span>
+            </label>
+            <img src="./images/scroll.png">
+        </div>
+    </main>
+    <footer>
+        <button onclick="action()">
+            去发牌
+        </button>
+    </footer>
+</div>
+
+<script src="js2.js"></script>
+</body>
+</html>

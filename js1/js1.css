@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin:50px auto;
+    max-width: 720px;
+    width: 100%;
+    padding: 1%;
+    box-shadow: 0 0 5px gray;
+    overflow: hidden;
+}
+
+.small{
+    float: left;
+    width: 31.3%;
+    background: #e8830d;
+    margin: 1%;
+    padding: 15% 0;
+    border-radius: 5px;
+}
